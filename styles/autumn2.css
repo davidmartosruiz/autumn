@@ -1,0 +1,54 @@
+/* DAVID MARTOS RUIZ 2º SMR */
+
+@font-face {
+    font-family: text;
+    src: url(../fonts/Always\ In\ My\ Heart.ttf);
+}
+
+@font-face {
+    font-family: title;
+    src: url(../fonts/Diary\ Autumn\ ttf.ttf);
+}
+
+@font-face {
+    font-family: handwritten;
+    src: url(../fonts/Creattion\ Demo.otf);
+}
+
+body{margin: 0;
+    padding: 0;
+    background-color: #180815;}
+
+#container{background-image: url(../images/background.jpg) ;
+            /* cover estira la imagen de fondo */
+            background-size: cover;
+            /* el punto de enfoque del cover */
+            background-position: 66%;
+            width: 95%;
+            margin: auto;
+            padding: 20px;
+            padding-bottom: 5%
+            ;}
+
+
+#poema{background-color: #f3d5a6a8;
+        width: 500px;
+        border-radius: 15px 15px 15px 15px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        box-shadow: 1vw 1vw 10px #d0b078;}
+
+#poema h2{font-family: title;
+        text-align: center;
+        padding-top: 15px;
+        text-shadow: 6px 6px 1px #d69613}
+
+#poema p{font-family: text;
+        font-size: 1.6em;
+        padding: 10px;
+        text-align: center;}
+
+#poema h4 {font-family: handwritten;
+            font-size: 2.5em;
+            text-align: right;
+            margin: auto 30px;}
