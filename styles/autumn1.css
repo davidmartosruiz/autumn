@@ -60,3 +60,13 @@ body{background-color: #f7ecd6;
     position: absolute;
     top: 25%;
     right: 15%;}
+
+@media only screen and (max-width:750px){
+    #tree {visibility: hidden;}
+    body {margin: 0;}
+    #poema {width: 350px;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    text-align: left;}
+}

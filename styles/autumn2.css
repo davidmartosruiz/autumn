@@ -52,3 +52,12 @@ body{margin: 0;
             font-size: 2.5em;
             text-align: right;
             margin: auto 30px;}
+
+@media only screen and (max-width:600px){
+    body {margin: auto;}
+    #poema {width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;}
+    #poema p {margin: auto;}
+}
